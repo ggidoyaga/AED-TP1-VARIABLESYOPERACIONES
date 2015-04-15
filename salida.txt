@@ -1,0 +1,26 @@
+Buenas tardes, vamos a hacer la prueba de algunos usos de variables, valores y o
+peraciones.
+
+A continuaci¾n le pediremos que nos ingrese algunos datos. Para empezar ingrese
+su apellido.
+Idoyaga
+Ahora ingrese su nombre.
+Gustavo
+Por favor ingrese su edad.
+27
+Por favor ingrese un numero que desee.
+25
+Por favor, ingrese otro numero.
+33
+Hola Idoyaga Gustavo.
+El sistema va a evaluar si su edad es igual al primer numero que ingreso (0 sign
+ifica 'NO' y 1 significa 'SI'): 0.
+Ahora evaluara si es mayor o igual al segundo numero que ingreso (0 significa 'N
+O' y 1 significa 'SI'): 0.
+La suma de los n·meros que ingreso es: 58.
+La resta del primer numero por el segundo es :-8 y de forma inversa es: 8.
+El resto que hay entre el primer numero y el segundo es: 25.
+El primer numero potenciado sobre si mismo 40 veces: 6.60918e+008.
+
+Process returned 0 (0x0)   execution time : 20.887 s
+Press any key to continue.
