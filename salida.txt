@@ -5,22 +5,31 @@ A continuaci¾n le pediremos que nos ingrese algunos datos. Para empezar ingrese
 su apellido.
 Idoyaga
 Ahora ingrese su nombre.
-Gustavo
-Por favor ingrese su edad.
-27
-Por favor ingrese un numero que desee.
-25
-Por favor, ingrese otro numero.
-33
-Hola Idoyaga Gustavo.
-El sistema va a evaluar si su edad es igual al primer numero que ingreso (0 sign
-ifica 'NO' y 1 significa 'SI'): 0.
-Ahora evaluara si es mayor o igual al segundo numero que ingreso (0 significa 'N
-O' y 1 significa 'SI'): 0.
-La suma de los n·meros que ingreso es: 58.
-La resta del primer numero por el segundo es :-8 y de forma inversa es: 8.
-El resto que hay entre el primer numero y el segundo es: 25.
-El primer numero potenciado sobre si mismo 40 veces: 6.60918e+008.
+Gaston
+Hola Idoyaga Gaston.
 
-Process returned 0 (0x0)   execution time : 20.887 s
+Por favor ingrese un numero que desee.
+13
+Por favor, ingrese otro numero.
+15
+La suma de los n·meros que ingreso es: 28.
+La resta del primer numero por el segundo es :-2 y de forma inversa es: 2.
+El resto que hay en dividir con el primer numero ingresado es: 1.
+
+El primer numero multiplicado por trece 28 veces da como resultado: -1.17605e+00
+9y el segundo multiplicado por el mismo numero 23 veces: 8.4363e+008.
+Si sumamos estos numeros: -3.32423e+008.
+Si restamos estos numeros: -2.01968e+009.
+Si multiplicamos estos numeros: -9.92154e+017.
+Si dividimos estos numeros: -9.92154e+017.
+
+El sistema va a evaluar si el apellido que ingreso es distinto al nombre que ing
+reso (0 significa 'NO' y 1 significa 'SI'): 1.
+Ingrese una palabra.
+UTN
+Ingrese otra palabra.
+SISTEMAS
+Las palabras tienen un total de 11 letras.
+
+Process returned 0 (0x0)   execution time : 22.525 s
 Press any key to continue.
