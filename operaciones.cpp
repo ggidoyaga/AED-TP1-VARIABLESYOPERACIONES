@@ -1,46 +1,52 @@
- /* TP #1 
+/* TP #1
 * Gustavo Gaston Idoyaga 
-* 20150414 
+* 20150427
 */ 
- 
  
 #include <iostream> 
 #include <string> 
  
- 
-int a, b, suma, resta, resta2, resto;  
-unsigned eda; 
-char direc; 
-double potencia; 
-bool c, d; 
- 
+using namespace std;
  
 int main () { 
-    std :: cout << "Buenas tardes, vamos a hacer la prueba de algunos usos de variables, valores y operaciones.\n\n"; 
-    std :: cout << "A continuación le pediremos que nos ingrese algunos datos. Para empezar ingrese su apellido.\n"; 
-    std :: string ape; 
-std :: cin >> ape; 
-    std :: cout << "Ahora ingrese su nombre.\n"; 
-    std :: string nom; 
-std :: cin >> nom; 
-std :: cout << "Por favor ingrese su edad.\n"; 
-std :: cin >> eda; 
-std :: cout << "Por favor ingrese un numero que desee.\n"; 
-    std :: cin >> a; 
-    std :: cout << "Por favor, ingrese otro numero.\n"; 
-    std :: cin >> b; 
-    suma = a + b; 
-    resta = a - b; 
-    resta2 = b - a; 
-    resto = a % b; 
-    potencia = a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a; 
-    c = eda == a; 
-    d = eda >= b; 
-std :: cout << "Hola " << ape << " " << nom << ".\n"; 
-std :: cout << "El sistema va a evaluar si su edad es igual al primer numero que ingreso (0 significa 'NO' y 1 significa 'SI'): " << c << ".\n"; 
-std :: cout << "Ahora evaluara si es mayor o igual al segundo numero que ingreso (0 significa 'NO' y 1 significa 'SI'): " << d << ".\n"; 
-    std :: cout << "La suma de los números que ingreso es: " << suma << ".\n"; 
-    std :: cout << "La resta del primer numero por el segundo es :" << resta << " y de forma inversa es: " << resta2 << ".\n"; 
-    std :: cout << "El resto que hay entre el primer numero y el segundo es: " << resto << ".\n"; 
-    std :: cout << "El primer numero potenciado sobre si mismo 40 veces: " << potencia << ".\n"; 
+   	cout << "Buenas tardes, vamos a hacer la prueba de algunos usos de variables, valores y operaciones.\n\n"; 
+    cout << "A continuación le pediremos que nos ingrese algunos datos. Para empezar ingrese su apellido.\n"; 
+    char ape[20];
+   	cin >> ape; 
+    cout << "Ahora ingrese su nombre.\n"; 
+    char nom[20]; 
+	   cin >> nom; 
+	   cout << "Hola " << ape << " " << nom << ".\n" << endl; 
+	   cout << "Por favor ingrese un numero que desee.\n"; 
+    int a;
+	   cin >> a; 
+    cout << "Por favor, ingrese otro numero.\n"; 
+    int b;
+	   cin >> b;
+    int suma, resta, resta2, resto;
+	   suma = (a + b); 
+    cout << "La suma de los números que ingreso es: " << suma << ".\n"; 
+    resta = (a - b); 
+    resta2 = (b - a); 
+    cout << "La resta del primer numero por el segundo es :" << resta << " y de forma inversa es: " << resta2 << ".\n"; 
+    resto = a%2; 
+	   cout << "El resto que hay en dividir con el primer numero ingresado es: " << resto << ".\n" << endl; 
+	   double potencia, potencia2;
+    potencia = a * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13; 
+    potencia2 = b * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13 * 13;
+    cout << "El primer numero multiplicado por trece 28 veces da como resultado: " << potencia << "y el segundo multiplicado por el mismo numero 23 veces: " << potencia2 << ".\n"; 
+	   cout << "Si sumamos estos numeros: " << (potencia + potencia2) << ".\n";
+	   cout << "Si restamos estos numeros: " << (potencia - potencia2) << ".\n"; 
+	   cout << "Si multiplicamos estos numeros: " << (potencia * potencia2) << ".\n";
+	   cout << "Si dividimos estos numeros: " << (potencia * potencia2) << ".\n" << endl;
+    cout << "El sistema va a evaluar si el apellido que ingreso es distinto al nombre que ingreso (0 significa 'NO' y 1 significa 'SI'): " << !(ape == nom) << ".\n"; 
+	   cout << "Ingrese una palabra.\n";
+    string e;
+	   cin >> e;
+    cout << "Ingrese otra palabra.\n";
+    string r;
+	   cin >> r;
+   	string ty;
+    ty = e+r;
+    cout << "Las palabras tienen un total de " << ty.size () << " letras.\n";
 }
