@@ -5,31 +5,33 @@ A continuaci¾n le pediremos que nos ingrese algunos datos. Para empezar ingrese
 su apellido.
 Idoyaga
 Ahora ingrese su nombre.
-Gaston
-Hola Idoyaga Gaston.
+Gustavo
+Hola IdoyagaGustavo.
+
+Su apellido y nombre tiene un total de 14 letras.
 
 Por favor ingrese un numero que desee.
-13
+28
 Por favor, ingrese otro numero.
 15
-La suma de los n·meros que ingreso es: 28.
-La resta del primer numero por el segundo es :-2 y de forma inversa es: 2.
-El resto que hay en dividir con el primer numero ingresado es: 1.
+La suma de los n·meros que ingreso es: 43.
+La resta del primer numero por el segundo es :13 y de forma inversa es: -13.
+El resto que hay en dividir con el primer numero ingresado es: 0.
 
-El primer numero multiplicado por trece 28 veces da como resultado: -1.17605e+00
-9y el segundo multiplicado por el mismo numero 23 veces: 8.4363e+008.
-Si sumamos estos numeros: -3.32423e+008.
-Si restamos estos numeros: -2.01968e+009.
-Si multiplicamos estos numeros: -9.92154e+017.
-Si dividimos estos numeros: -9.92154e+017.
+El primer numero multiplicado por trece 28 veces da como resultado: 7.70783e+008
+y el segundo multiplicado por el mismo numero 23 veces: 8.4363e+008.
+Si sumamos estos numeros: 1.61441e+009.
+Si restamos estos numeros: -7.28472e+007.
+Si multiplicamos estos numeros: 6.50255e+017.
+Si dividimos estos numeros: 6.50255e+017.
 
 El sistema va a evaluar si el apellido que ingreso es distinto al nombre que ing
 reso (0 significa 'NO' y 1 significa 'SI'): 1.
-Ingrese una palabra.
-UTN
-Ingrese otra palabra.
-SISTEMAS
-Las palabras tienen un total de 11 letras.
 
-Process returned 0 (0x0)   execution time : 22.525 s
+Ingrese una letra: A
+Ingrese una letra: e
+
+Las letras que ingreso son iguales (0 significa NO y 1 significa SI): 0
+
+Process returned 0 (0x0)   execution time : 14.953 s
 Press any key to continue.
